@@ -1,0 +1,6 @@
+framework module Pods_Firebase_Deneme {
+  umbrella header "Pods-Firebase_Deneme-umbrella.h"
+
+  export *
+  module * { export * }
+}
