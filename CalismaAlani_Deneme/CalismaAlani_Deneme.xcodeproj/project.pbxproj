@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11EFCA7A2BF00AC0006D0CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFCA792BF00AC0006D0CE1 /* AppDelegate.swift */; };
+		11EFCA7C2BF00AC0006D0CE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFCA7B2BF00AC0006D0CE1 /* SceneDelegate.swift */; };
+		11EFCA7E2BF00AC0006D0CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFCA7D2BF00AC0006D0CE1 /* ViewController.swift */; };
+		11EFCA812BF00AC0006D0CE1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11EFCA802BF00AC0006D0CE1 /* Base */; };
+		11EFCA832BF00AC1006D0CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EFCA822BF00AC1006D0CE1 /* Assets.xcassets */; };
+		11EFCA862BF00AC1006D0CE1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11EFCA852BF00AC1006D0CE1 /* Base */; };
+		3C2B7FB4323BDD51E193287C /* Pods_CalismaAlani_Deneme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B562A47F7E70681F4C3CF3 /* Pods_CalismaAlani_Deneme.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11EFCA762BF00AC0006D0CE1 /* CalismaAlani_Deneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalismaAlani_Deneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EFCA792BF00AC0006D0CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11EFCA7B2BF00AC0006D0CE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11EFCA7D2BF00AC0006D0CE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11EFCA802BF00AC0006D0CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11EFCA822BF00AC1006D0CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11EFCA852BF00AC1006D0CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11EFCA872BF00AC1006D0CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471161FDEB03393087AF9D3E /* Pods-CalismaAlani_Deneme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalismaAlani_Deneme.release.xcconfig"; path = "Target Support Files/Pods-CalismaAlani_Deneme/Pods-CalismaAlani_Deneme.release.xcconfig"; sourceTree = "<group>"; };
+		76D93752A353C80D271E89BF /* Pods-CalismaAlani_Deneme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalismaAlani_Deneme.debug.xcconfig"; path = "Target Support Files/Pods-CalismaAlani_Deneme/Pods-CalismaAlani_Deneme.debug.xcconfig"; sourceTree = "<group>"; };
+		D4B562A47F7E70681F4C3CF3 /* Pods_CalismaAlani_Deneme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalismaAlani_Deneme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11EFCA732BF00AC0006D0CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2B7FB4323BDD51E193287C /* Pods_CalismaAlani_Deneme.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11EFCA6D2BF00AC0006D0CE1 = {
+			isa = PBXGroup;
+			children = (
+				11EFCA782BF00AC0006D0CE1 /* CalismaAlani_Deneme */,
+				11EFCA772BF00AC0006D0CE1 /* Products */,
+				E98BCB156DFE8600CBABFBE5 /* Pods */,
+				B0E127D8F5D2382D2E4CD6AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11EFCA772BF00AC0006D0CE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11EFCA762BF00AC0006D0CE1 /* CalismaAlani_Deneme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11EFCA782BF00AC0006D0CE1 /* CalismaAlani_Deneme */ = {
+			isa = PBXGroup;
+			children = (
+				11EFCA792BF00AC0006D0CE1 /* AppDelegate.swift */,
+				11EFCA7B2BF00AC0006D0CE1 /* SceneDelegate.swift */,
+				11EFCA7D2BF00AC0006D0CE1 /* ViewController.swift */,
+				11EFCA7F2BF00AC0006D0CE1 /* Main.storyboard */,
+				11EFCA822BF00AC1006D0CE1 /* Assets.xcassets */,
+				11EFCA842BF00AC1006D0CE1 /* LaunchScreen.storyboard */,
+				11EFCA872BF00AC1006D0CE1 /* Info.plist */,
+			);
+			path = CalismaAlani_Deneme;
+			sourceTree = "<group>";
+		};
+		B0E127D8F5D2382D2E4CD6AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4B562A47F7E70681F4C3CF3 /* Pods_CalismaAlani_Deneme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E98BCB156DFE8600CBABFBE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D93752A353C80D271E89BF /* Pods-CalismaAlani_Deneme.debug.xcconfig */,
+				471161FDEB03393087AF9D3E /* Pods-CalismaAlani_Deneme.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11EFCA752BF00AC0006D0CE1 /* CalismaAlani_Deneme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EFCA8A2BF00AC1006D0CE1 /* Build configuration list for PBXNativeTarget "CalismaAlani_Deneme" */;
+			buildPhases = (
+				FBE88FFA91EBAE859183EA94 /* [CP] Check Pods Manifest.lock */,
+				11EFCA722BF00AC0006D0CE1 /* Sources */,
+				11EFCA732BF00AC0006D0CE1 /* Frameworks */,
+				11EFCA742BF00AC0006D0CE1 /* Resources */,
+				969A9356397E869B12A9D237 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalismaAlani_Deneme;
+			productName = CalismaAlani_Deneme;
+			productReference = 11EFCA762BF00AC0006D0CE1 /* CalismaAlani_Deneme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11EFCA6E2BF00AC0006D0CE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					11EFCA752BF00AC0006D0CE1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 11EFCA712BF00AC0006D0CE1 /* Build configuration list for PBXProject "CalismaAlani_Deneme" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11EFCA6D2BF00AC0006D0CE1;
+			productRefGroup = 11EFCA772BF00AC0006D0CE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11EFCA752BF00AC0006D0CE1 /* CalismaAlani_Deneme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11EFCA742BF00AC0006D0CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EFCA832BF00AC1006D0CE1 /* Assets.xcassets in Resources */,
+				11EFCA862BF00AC1006D0CE1 /* Base in Resources */,
+				11EFCA812BF00AC0006D0CE1 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		969A9356397E869B12A9D237 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalismaAlani_Deneme/Pods-CalismaAlani_Deneme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalismaAlani_Deneme/Pods-CalismaAlani_Deneme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalismaAlani_Deneme/Pods-CalismaAlani_Deneme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE88FFA91EBAE859183EA94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalismaAlani_Deneme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11EFCA722BF00AC0006D0CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EFCA7E2BF00AC0006D0CE1 /* ViewController.swift in Sources */,
+				11EFCA7A2BF00AC0006D0CE1 /* AppDelegate.swift in Sources */,
+				11EFCA7C2BF00AC0006D0CE1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11EFCA7F2BF00AC0006D0CE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11EFCA802BF00AC0006D0CE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11EFCA842BF00AC1006D0CE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11EFCA852BF00AC1006D0CE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11EFCA882BF00AC1006D0CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11EFCA892BF00AC1006D0CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11EFCA8B2BF00AC1006D0CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D93752A353C80D271E89BF /* Pods-CalismaAlani_Deneme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalismaAlani_Deneme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sametkorkmaz.CalismaAlani-Deneme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11EFCA8C2BF00AC1006D0CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471161FDEB03393087AF9D3E /* Pods-CalismaAlani_Deneme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalismaAlani_Deneme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sametkorkmaz.CalismaAlani-Deneme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EFCA712BF00AC0006D0CE1 /* Build configuration list for PBXProject "CalismaAlani_Deneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EFCA882BF00AC1006D0CE1 /* Debug */,
+				11EFCA892BF00AC1006D0CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EFCA8A2BF00AC1006D0CE1 /* Build configuration list for PBXNativeTarget "CalismaAlani_Deneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EFCA8B2BF00AC1006D0CE1 /* Debug */,
+				11EFCA8C2BF00AC1006D0CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11EFCA6E2BF00AC0006D0CE1 /* Project object */;
+}
